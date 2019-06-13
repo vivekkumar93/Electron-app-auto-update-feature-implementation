@@ -1,0 +1,4 @@
+appId: electron1234
+publish:
+    provider: github
+    token: $$154f10b84bd1ef186dded7bc18df39c698bd6ee2$$

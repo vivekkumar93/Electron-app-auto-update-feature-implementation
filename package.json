@@ -1,0 +1,35 @@
+{
+  "name": "electron-quick-start",
+  "version": "1.0.0",
+  "description": "A minimal Electron application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "build --win"
+  },
+  "build": {
+    "appId": "electron1234",
+    "win": {
+      "target": "NSIS",
+      "icon": "build/icon.ico"
+    }
+  },
+  "repository": "https://github.com/vivekkumar93/sample-electron-app-with-auto-update",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "GitHub",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^5.0.0",
+    "electron-builder": "^20.39.0"
+  },
+  "dependencies": {
+    "electron-log": "^3.0.5",
+    "electron-updater": "^4.0.6"
+  }
+}
